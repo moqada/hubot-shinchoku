@@ -5,7 +5,7 @@
 #   shinchoku - 進捗画像をランダムに返す
 #   進捗 - 進捗画像をランダムに返す
 #
-# Author
+# Author:
 #   moqada
 
 request = require 'request'
