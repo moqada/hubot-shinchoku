@@ -1,0 +1,14 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/moqada/hubot-shinchoku/compare/v0.0.1...v0.1.0) (2017-02-01)
+
+### Features
+
+- Retry three times before giving up with No image message ([#1](https://github.com/moqada/hubot-shinchoku/pull/1)) ([@tomari](https://github.com/tomari))
+
+
+
+<a name="0.0.1"></a>
+# 0.0.1 (2014-08-12)
+
+
+First Release!
