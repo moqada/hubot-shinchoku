@@ -1,5 +1,7 @@
 # hubot-shinchoku
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/moqada/hubot-shinchoku.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][npm-download-image]][npm-download-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
