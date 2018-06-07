@@ -1,3 +1,13 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/moqada/hubot-shinchoku/compare/v0.1.0...v0.2.0) (2018-06-07)
+
+
+### Features
+
+* **hubot-shinchoku:** Add REACTION_MODE ([38c26d7](https://github.com/moqada/hubot-shinchoku/commit/38c26d7))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/moqada/hubot-shinchoku/compare/v0.0.1...v0.1.0) (2017-02-01)
 
