@@ -13,6 +13,15 @@
 2. "hubot-shinchoku" を external-scripts.json に追加
 4. Reboot Hubot
 
+## Configuration:
+
+**HUBOT_SHINCHOKU_REACTION_MODE**
+
+メッセージへの反応形式を設定する。
+
+- `respond`: mentionのキーワードにのみ反応する
+- `hear`: 会話中全てのキーワードに反応する (default)
+
 ## Commands
 
 ```

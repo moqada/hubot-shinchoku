@@ -11,11 +11,20 @@
 request = require 'request'
 cheerio = require 'cheerio'
 
+pattern = /(shinchoku|進捗)/i
+reactionMode = process.env.HUBOT_SHINCHOKU_REACTION_MODE or 'hear'
 url = 'http://shinchokudodesuka.tumblr.com/random'
 retries = 3
 
 module.exports = (robot) ->
-  robot.hear /(shinchoku|進捗)/i, (msg) ->
+  if reactionMode is 'respond'
+    robot.respond pattern, (msg) ->
+      sendImage msg
+  else
+    robot.hear pattern, (msg) ->
+      sendImage msg
+
+  sendImage = (msg) ->
     post_shinchoku = (retry_left) ->
       request url: url, (err, res, body) ->
         $ = cheerio.load body
